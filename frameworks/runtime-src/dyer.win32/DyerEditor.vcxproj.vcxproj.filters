@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d881a66e-70af-46f2-9494-03132d2cf105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{30f21c66-e2ac-4138-8b18-e51cb019bbd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{c80cd2f3-8707-493a-b662-508a25adb8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dyer">
+      <UniqueIdentifier>{7f26cf21-f914-408b-8004-fc5847c69d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dyer\shader">
+      <UniqueIdentifier>{d4421eae-62bf-4eab-b2fb-de34f55a4ad8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ClassesDyerEditor\Classes\ide-support\CodeIDESupport.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\Classes\ide-support\lua_debugger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\Classes\ide-support\RuntimeLuaImpl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="..\ClassesDyerEditor\dyer\AppDelegate.h">
+      <Filter>dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\DyerParser.h">
+      <Filter>dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\DyerScene.h">
+      <Filter>dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\Editor.h">
+      <Filter>dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\EditorCell.h">
+      <Filter>dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\shader\shaderDyer_fsh.h">
+      <Filter>dyer\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\shader\shaderDyer_vsh.h">
+      <Filter>dyer\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClassesDyerEditor\dyer\shader\shaderRestore_fsh.h">
+      <Filter>dyer\shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ClassesDyerEditor\Classes\ide-support\lua_debugger.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\Classes\ide-support\RuntimeLuaImpl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="..\ClassesDyerEditor\dyer\AppDelegate.cpp">
+      <Filter>dyer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\dyer\DyerParser.cpp">
+      <Filter>dyer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\dyer\DyerScene.cpp">
+      <Filter>dyer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\dyer\Editor.cpp">
+      <Filter>dyer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClassesDyerEditor\dyer\EditorCell.cpp">
+      <Filter>dyer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

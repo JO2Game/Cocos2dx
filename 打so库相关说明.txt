@@ -1,0 +1,51 @@
+C:\PROGRA~2\Borland\CBUILD~1\Bin;C:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Xoreax\IncrediBuild;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;;c:\android-ndk;C:\Python33;%ANT_HOME%\bin;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;C:\youai\apache-ant-1.9.3\bin;
+
+%COCOS_CONSOLE_ROOT%;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Python27;C:\youai\quick-cocos2d-x-develop\bin;%ANT_HOME%\bin;
+
+下载Android SDK 
+
+下载Android NDk 
+
+下载Android JDK 
+
+下载Ant 
+
+二、配置JDK
+
+在JDK安装完毕之后，需要手动进行环境变量的配置
+
+1、系统变量里新建JAVA_HOME变量，变量值为：C:\Program Files\Java\jdk1.8.0_05（根据自己的安装路径填写）
+
+2、新建系统变量classpath变量，变量值为：.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar （注意前面的“.”不要忘记了）
+
+3、在系统变量path变量（已存在不用新建）添加变量值：%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin（注意变量值之间用“;”隔开）
+
+
+
+环境变量的解析:
+
+JAVA_HOME:jdk的安装路径
+
+classpath:java加载类路径，只有类在classpath中java命令才能识别，在路径前加了个"."表示当前路径。
+
+path：系统在任何路径下都可以识别java,javac命令。
+
+
+
+在配置完成之后，我们打开cmd命令窗口，输入java或javac 回车，如果不是打印“java不是内部或外部命令”那就说明配置成功了。
+
+三、配置Ant环境变量
+
+把ant的存放路径加入系统Path变量。
+
+四 COCOS 环境变量
+
+COCOS_CONSOLE_ROOT:C:\youai\SLG_pro\SLG_game\frameworks\cocos2d-x\tools\cocos2d-console\bin
+ANDROID_SDK_ROOT:C:\youai\adt-bundle-windows-x86_64-20140321\sdk
+ANT_HOME:C:\youai\apache-ant-1.9.3
+ANT_ROOT:C:\youai\apache-ant-1.9.3
+NDK_ROOT:C:\youai\android-ndk-r10d
+
+
+编译命令
+cocos compile -p android -m release

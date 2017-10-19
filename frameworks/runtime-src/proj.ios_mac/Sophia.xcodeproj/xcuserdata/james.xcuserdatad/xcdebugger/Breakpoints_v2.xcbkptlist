@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../cocos2d-x/cocos/renderer/CCFrameBuffer.cpp"
+            timestampString = "489340396.491394"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "450"
+            endingLineNumber = "450"
+            landmarkName = "FrameBuffer::applyFBO()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cocos2d::experimental::FrameBuffer::applyFBO()"
+                  moduleName = "Sophia-desktop_src"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/project/cocos2dx/FoundationCore/Sophia/frameworks/cocos2d-x/cocos/renderer/CCFrameBuffer.cpp"
+                  timestampString = "491411569.586527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "450"
+                  endingLineNumber = "450"
+                  offsetFromSymbolStart = "194">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "cocos2d::experimental::FrameBuffer::applyFBO()"
+                  moduleName = "Sophia-desktop_src"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/james/project/cocos2dx/FoundationCore/Sophia/frameworks/cocos2d-x/cocos/renderer/CCFrameBuffer.cpp"
+                  timestampString = "491411569.5869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "450"
+                  endingLineNumber = "450"
+                  offsetFromSymbolStart = "199">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,12 @@
+<Solution>
+  <PropertyGroup Name="Dyer" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Project Name="CaseCell.csd" Type="Layer" />
+        <Project Name="Editor.csd" Type="Scene" />
+        <Project Name="FileCell.csd" Type="Layer" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

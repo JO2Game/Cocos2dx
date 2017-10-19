@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "33d735ed-61f1-4562-81f2-c5cbebd2b55a++1195",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "33d735ed-61f1-4562-81f2-c5cbebd2b55a++1195" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "33d735ed-61f1-4562-81f2-c5cbebd2b55a++1195" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "33328B39-2A51-4A2B-8BF3-9B1B89D43DAF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "33d735ed-61f1-4562-81f2-c5cbebd2b55a++1195" : "FoundationCore\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Sophia",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "__\/Sophia\/frameworks\/runtime-src\/proj.ios_mac\/Sophia.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/127.0.0.1\/pro",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33d735ed-61f1-4562-81f2-c5cbebd2b55a++1195"
+    }
+  ]
+}

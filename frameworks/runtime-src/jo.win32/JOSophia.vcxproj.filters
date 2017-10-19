@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{fc5cb953-2953-4968-83b3-39e3ff951754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib">
+      <UniqueIdentifier>{a136025c-30a9-453f-b208-bca68fa8bdf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra">
+      <UniqueIdentifier>{c4064619-b9b0-4327-bed8-d28159685841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\asynchLoader">
+      <UniqueIdentifier>{860cfce4-191c-456c-9aa8-8f5e450ce3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\effect">
+      <UniqueIdentifier>{356931b6-8b6a-4b34-8c0b-731904aa7948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\effect\common">
+      <UniqueIdentifier>{26c11431-d9cd-40d8-a32c-96dc12f5527c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\filesystem">
+      <UniqueIdentifier>{4c33bc5b-d0cd-4d27-90f4-c0de77a7e520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_utils">
+      <UniqueIdentifier>{8ef7e7c5-88c3-4e31-b3f5-6529a4ac6576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_utils\src">
+      <UniqueIdentifier>{e3fb2680-f14f-43ae-a945-3b526330aba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_ui">
+      <UniqueIdentifier>{94060647-3950-4511-b60d-c275248004c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_sql">
+      <UniqueIdentifier>{322c483e-42b2-4cc6-b51e-fffdda2959ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_sql\src">
+      <UniqueIdentifier>{be257339-c38c-4806-b05d-26b223b764f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_init">
+      <UniqueIdentifier>{fbd51a59-fcb9-4347-adeb-0174e1f204df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_init\LuaJson">
+      <UniqueIdentifier>{3da166f4-8aa3-4807-b395-cd80fb8eac8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_event_sys">
+      <UniqueIdentifier>{893f2823-05c8-4f7e-8ccf-0688d4d0a811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_event_sys\src">
+      <UniqueIdentifier>{17d18508-113b-4642-9c81-d135c058f0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_crypto">
+      <UniqueIdentifier>{6badbc70-363e-4332-8be2-530d1325f506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_crypto\src">
+      <UniqueIdentifier>{2346100a-9998-4e7f-be11-2d15fa57d5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map">
+      <UniqueIdentifier>{c99e104f-2f51-4d9e-9a5b-0d782059630b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\src">
+      <UniqueIdentifier>{c905ea81-4346-4d72-b7c1-a0a976ca0e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\src\rpg">
+      <UniqueIdentifier>{320e75d7-d19c-4d69-9db7-c8c9e84898ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\rpg">
+      <UniqueIdentifier>{91227645-5ccc-4484-b2d4-be00aecfe579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\rpg\vo">
+      <UniqueIdentifier>{8a2de66f-be0b-4915-8e00-3dc0e4371fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\src\rpg\vo">
+      <UniqueIdentifier>{40ad06cd-59e7-450f-a78f-a7551a90963e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_math">
+      <UniqueIdentifier>{cd28346d-f1ad-421e-9c1f-0ccfe83533d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_math\src">
+      <UniqueIdentifier>{eb29f195-9b02-43e6-b6f5-ca4e79ab0c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\rpg\ui">
+      <UniqueIdentifier>{e52f7567-295b-4b79-98d7-1e319d32ac2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\src\rpg\ui">
+      <UniqueIdentifier>{ed42c2c0-f80f-40ca-baa0-0857119b27fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\dyer">
+      <UniqueIdentifier>{37bc157a-308d-4357-8a8d-fb980e393775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\entity">
+      <UniqueIdentifier>{f5ba719c-9829-4c73-8b02-1ec6fda50ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_map\src\entity">
+      <UniqueIdentifier>{a7100d3c-2cf6-4962-8c0d-8efa1fc83c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_utils\gesture">
+      <UniqueIdentifier>{c56c18e3-73b0-4a9a-9969-5dec52c2aebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\jo_utils\src\gesture">
+      <UniqueIdentifier>{34bd1d00-f8bd-4685-ae51-cceb2c401b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\asynchLoader\vo">
+      <UniqueIdentifier>{d0ab0cf3-86e4-4918-88a5-c03fe183b95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jolib\extra\gui">
+      <UniqueIdentifier>{21c1114c-b700-4a0a-b3c2-a6902c244f2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\CodeIDESupport.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\lua_debugger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ide-support\RuntimeLuaImpl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\cocos2dx_extra.h">
+      <Filter>jolib\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ens2DSoftShadowNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensBreakNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensGhostNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensLaser.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensLightningBoltNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensRipple_horizontalNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensRippleNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\ensShatterNode.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\JOEnsEffect_luabinding.h">
+      <Filter>jolib\extra\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensCommon.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensDefine.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensFunc.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensGLProgramWithUnifos.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensIndexVBO.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensMath.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensMesh.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\effect\common\ensSimpleClasses.h">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\filesystem\lfs.h">
+      <Filter>jolib\extra\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\JOUtils.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOBlockAllocator.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOFileUtils.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOLog.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOLuaUtils.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOMacros.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOSingleton.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOString.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\Singleton.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_ui\JOInputText.h">
+      <Filter>jolib\jo_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_ui\JOUI_auto.hpp">
+      <Filter>jolib\jo_ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSQL.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSql_luabinding.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSqlQuary.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSqlReader.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\sqlite3.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\JOLibInit.h">
+      <Filter>jolib\jo_init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\luaXml\LuaXML_lib.h">
+      <Filter>jolib\jo_init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\JOEventSys.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JOData.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JODataBundle.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JODataCoder.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JODataUtils.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JOEventDispatcher.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JOFunctionBinder.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JOHttpDownload.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JONetwork.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JORingBuffer.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\jo_event_sys\JOSocket.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_crypto\jo_crypto\JOCrypto.h">
+      <Filter>jolib\jo_crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOLock.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOMemery.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOThread.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOTime.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOMemInfo.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOCachePool.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOJsonHelper.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\rpg\JOMapRPGAsset.h">
+      <Filter>jolib\jo_map\rpg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\JOMapRPG.h">
+      <Filter>jolib\jo_map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\rpg\vo\JOMapRPGTileVO.h">
+      <Filter>jolib\jo_map\rpg\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\rpg\vo\JOMapRPGVO.h">
+      <Filter>jolib\jo_map\rpg\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_math\jo_math\JOMath.h">
+      <Filter>jolib\jo_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_math\jo_math\jo_math\JOAStar.h">
+      <Filter>jolib\jo_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_math\jo_math\jo_math\JOPoint.h">
+      <Filter>jolib\jo_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\rpg\JOSceneRPGMgr.h">
+      <Filter>jolib\jo_map\rpg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_math\jo_math\jo_math\JOSize.h">
+      <Filter>jolib\jo_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_math\jo_math\jo_math\JORect.h">
+      <Filter>jolib\jo_math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\rpg\ui\JOSceneRPG.h">
+      <Filter>jolib\jo_map\rpg\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\dyer\DyerMgr.h">
+      <Filter>jolib\extra\dyer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_map\jo_map\jo_map\entity\JOMapEntity.h">
+      <Filter>jolib\jo_map\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOSnMgr.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\gesture\GeometricRecognizer.h">
+      <Filter>jolib\jo_utils\gesture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\gesture\GeometricRecognizerTypes.h">
+      <Filter>jolib\jo_utils\gesture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\gesture\GestureTemplate.h">
+      <Filter>jolib\jo_utils\gesture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\gesture\PathWriter.h">
+      <Filter>jolib\jo_utils\gesture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\gesture\SampleGestures.h">
+      <Filter>jolib\jo_utils\gesture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOCommand.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOCommandMgr.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOCommandQueue.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOTaskMgr.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOTickMgr.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\JOUtils_lua_auto.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\JOUtils_lua_manual.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_crypto\jo_crypto\JOCrypto_lua_auto.h">
+      <Filter>jolib\jo_crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\vo\JOAsynchLoaderVO.h">
+      <Filter>jolib\extra\asynchLoader\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\vo\JOAsynchSoundVO.h">
+      <Filter>jolib\extra\asynchLoader\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\vo\JOResRecordVO.h">
+      <Filter>jolib\extra\asynchLoader\vo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchBaseLoader.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchMultLoader.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchQueueLoader.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchSoundLoader.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOResMgr.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\gui\JOScale9Sprite.h">
+      <Filter>jolib\extra\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\gui\JOSprite.h">
+      <Filter>jolib\extra\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynch.h">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\JOEventSys_lua_auto.h">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSql_lua_auto.h">
+      <Filter>jolib\jo_sql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_utils\jo_utils\jo_utils\JOClsMemoryPool.h">
+      <Filter>jolib\jo_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\JOGame.h">
+      <Filter>jolib\jo_init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\JOGame_lua_auto.h">
+      <Filter>jolib\jo_init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\JOGameVoRegister.h">
+      <Filter>jolib\jo_init</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\LuaJson\fpconv.h">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\LuaJson\lua_cjson.h">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\LuaJson\lua_extensions.h">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\jo_init\LuaJson\strbuf.h">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\gui\JOScrollBar.h">
+      <Filter>jolib\extra\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\jolib\extra\gui\ScrollBarTest.h">
+      <Filter>jolib\extra\gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\lua_debugger.c">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ide-support\RuntimeLuaImpl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ens2DSoftShadowNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensBreakNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensGhostNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensLaser.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensLightningBoltNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensRipple_horizontalNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensRippleNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\ensShatterNode.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\JOEnsEffect_luabinding.cpp">
+      <Filter>jolib\extra\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\common\ensFunc.cpp">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\common\ensGLProgramWithUnifos.cpp">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\common\ensMath.cpp">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\effect\common\ensSimpleClasses.cpp">
+      <Filter>jolib\extra\effect\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\filesystem\lfs.c">
+      <Filter>jolib\extra\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOBlockAllocator.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOFileUtils.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOLog.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOLuaUtils.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOSingleton.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOString.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_ui\JOInputText.cpp">
+      <Filter>jolib\jo_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_ui\JOUI_auto.cpp">
+      <Filter>jolib\jo_ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSql_luabinding.cpp">
+      <Filter>jolib\jo_sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\src\JOSQL.cpp">
+      <Filter>jolib\jo_sql\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\src\JOSqlQuary.cpp">
+      <Filter>jolib\jo_sql\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\src\JOSqlReader.cpp">
+      <Filter>jolib\jo_sql\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\src\sqlite3.c">
+      <Filter>jolib\jo_sql\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\JOLibInit.cpp">
+      <Filter>jolib\jo_init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\luaXml\LuaXML_lib.cpp">
+      <Filter>jolib\jo_init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JOData.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JODataBundle.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JODataCoder.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JODataUtils.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JOEventDispatcher.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JOFunctionBinder.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JOHttpDownload.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JONetwork.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\src\JOSocket.cpp">
+      <Filter>jolib\jo_event_sys\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_crypto\src\JOCrypto.cpp">
+      <Filter>jolib\jo_crypto\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOLock.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOMemery.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOThread.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOTime.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOMemInfo.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOCachePool.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOJsonHelper.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\rpg\JOMapRPGAsset.cpp">
+      <Filter>jolib\jo_map\src\rpg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\rpg\vo\JOMapRPGTileVO.cpp">
+      <Filter>jolib\jo_map\src\rpg\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\rpg\vo\JOMapRPGVO.cpp">
+      <Filter>jolib\jo_map\src\rpg\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_math\src\JOAStar.cpp">
+      <Filter>jolib\jo_math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_math\src\JOPoint.cpp">
+      <Filter>jolib\jo_math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\rpg\JOSceneRPGMgr.cpp">
+      <Filter>jolib\jo_map\src\rpg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_math\src\JOSize.cpp">
+      <Filter>jolib\jo_math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_math\src\JORect.cpp">
+      <Filter>jolib\jo_math\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\rpg\ui\JOSceneRPG.cpp">
+      <Filter>jolib\jo_map\src\rpg\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\dyer\DyerMgr.cpp">
+      <Filter>jolib\extra\dyer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_map\src\entity\JOMapEntity.cpp">
+      <Filter>jolib\jo_map\src\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOSnMgr.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOCommand.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOCommandMgr.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOCommandQueue.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOTaskMgr.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOTickMgr.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\gesture\GeometricRecognizer.cpp">
+      <Filter>jolib\jo_utils\src\gesture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\gesture\SampleGestures.cpp">
+      <Filter>jolib\jo_utils\src\gesture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\jo_utils\JOUtils_lua_auto.cpp">
+      <Filter>jolib\jo_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\jo_utils\JOUtils_lua_manual.cpp">
+      <Filter>jolib\jo_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_crypto\jo_crypto\JOCrypto_lua_auto.cpp">
+      <Filter>jolib\jo_crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\vo\JOAsynchLoaderVO.cpp">
+      <Filter>jolib\extra\asynchLoader\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\vo\JOResRecordVO.cpp">
+      <Filter>jolib\extra\asynchLoader\vo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchBaseLoader.cpp">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchMultLoader.cpp">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchQueueLoader.cpp">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\JOAsynchSoundLoader.cpp">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\asynchLoader\JOResMgr.cpp">
+      <Filter>jolib\extra\asynchLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\gui\JOScale9Sprite.cpp">
+      <Filter>jolib\extra\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\gui\JOSprite.cpp">
+      <Filter>jolib\extra\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_event_sys\jo_event_sys\JOEventSys_lua_auto.cpp">
+      <Filter>jolib\jo_event_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_sql\jo_sql\JOSql_lua_auto.cpp">
+      <Filter>jolib\jo_sql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_utils\src\JOClsMemoryPool.cpp">
+      <Filter>jolib\jo_utils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\JOGame.cpp">
+      <Filter>jolib\jo_init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\JOGame_lua_auto.cpp">
+      <Filter>jolib\jo_init</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\LuaJson\fpconv.c">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\LuaJson\lua_cjson.c">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\LuaJson\lua_extensions.c">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\jo_init\LuaJson\strbuf.c">
+      <Filter>jolib\jo_init\LuaJson</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="..\..\..\..\jolib\extra\gui\JOScrollBar.cpp">
+      <Filter>jolib\extra\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\jolib\extra\gui\ScrollBarTest.cpp">
+      <Filter>jolib\extra\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+  </ItemGroup>
+</Project>

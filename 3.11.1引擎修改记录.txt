@@ -1,0 +1,45 @@
+cocos\2d:
+	CCNode.h\cpp
+	CCLayer.h\cpp
+	CCAnimationCache.h\cpp
+	CCSpriteFrameCache.h\cpp
+	CCRenderTexture.h\cpp
+	
+cocos\renderer:
+	CCTextureCache.h\cpp
+
+cocos\platform:
+	CCFileUtils.h\cpp
+	CCFileUtils-win32.cpp
+	CCFileUtils-android.cpp
+	CCFileUtils-apple.mm
+	CCGLView.h\cpp
+
+cocos\base:
+	CCDirector.h\cpp
+	CCEventDispatcher.cpp
+	CCScripSupport.h
+
+extensions\assets-manager:
+	AssetsManager.h\cpp
+
+extensions\GUI\CCScrollView:
+	CCScrollView.h\cpp
+
+cocos\scripting\lua-bindings\auto:
+	lua_cocos2dx_extension_auto.cpp 
+	lua_cocos2dx_auto.cpp 
+	lua_cocos2dx_studio_auto.cpp 
+
+cocos\scripting\lua-bindings\manual:
+	CCLuaEngine.h\cpp
+	Cocos2dxLuaLoader.cpp
+
+cocos\scripting\lua-bindings\manual\network:
+	lua_xml_http_request.h\cpp
+
+frameworks\runtime-src\proj.ios_mac\mac:
+	ConsoleWindowController.h\m\xib
+
+
+
