@@ -151,6 +151,8 @@ Node::Node()
     _scriptType = engine != nullptr ? engine->getScriptType() : kScriptTypeNone;
 #endif
     _transform = _inverse = _additionalTransform = Mat4::IDENTITY;
+
+	m_exitCallMap.clear();
 }
 
 Node * Node::create()
@@ -2181,7 +2183,19 @@ void Node::setCameraMask(unsigned short mask, bool applyChildren)
 }
 
 
+
 //add by James begin
+
+void Node::setGrayBackgroundEnable(bool value)
+{
+	if (m_bGrayBgEnabled == value) return;
+	m_bGrayBgEnabled = value;
+	if (m_grayCall)
+	{
+		m_grayCall(this);
+	}
+}
+
 void Node::onContentSizeChange()
 {
 #if CC_ENABLE_SCRIPT_BINDING

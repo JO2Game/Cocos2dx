@@ -134,9 +134,9 @@ class CC_DLL Node : public Ref
 //add by James begin
 	//JO_CLS_MPOOL_DECLARE(Node);
 public:	
-	inline void setGrayBackgroundEnable(bool value){ m_bGrayBgEnabled = value; };
+	void setGrayBackgroundEnable(bool value);
 	inline bool isGrayBackgroundEnable(){ return m_bGrayBgEnabled; };
-	
+	inline void setGrayBackgroundCall(std::function<void(Node*)> call) { m_grayCall = call; };
 	virtual void onContentSizeChange();
 	
 	bool isTouchInside(Touch* pTouch);
@@ -171,6 +171,7 @@ protected:
 	bool m_bGrayBgEnabled;	
 	typedef std::unordered_map<unsigned int, std::function<void(Node*)>> EXIT_CALL_MAP;
 	EXIT_CALL_MAP m_exitCallMap;
+	std::function<void(Node*)> m_grayCall;
 
 	bool m_bAsynLoading;
 	bool m_bLayouVisible;

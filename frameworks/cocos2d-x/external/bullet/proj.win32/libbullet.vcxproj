@@ -447,7 +447,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(Projectdir)../../../../../../$(Configuration).win32\libcocos2d</OutDir>
+    <OutDir>$(Projectdir)../../../../../../$(Configuration).win32</OutDir>
     <IntDir>$(Projectdir)../../../../../../$(Configuration)\libcocos2d</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
