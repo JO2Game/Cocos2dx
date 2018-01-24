@@ -72,11 +72,11 @@ extern "C"
         lua_pop(L, 1);
         size_t begin = 0;
         size_t next = searchpath.find_first_of(";", 0);
-        
+		int searchpathLen = searchpath.length();
         do
         {
             if (next == std::string::npos)
-                next = searchpath.length();
+				next = searchpathLen;
             std::string prefix = searchpath.substr(begin, next);
             if (prefix[0] == '.' && prefix[1] == '/')
             {
@@ -104,7 +104,7 @@ extern "C"
             
             begin = next + 1;
             next = searchpath.find_first_of(";", begin);
-        } while (begin < (int)searchpath.length());
+		} while (begin < (int)searchpathLen);
         
         if (chunk)
         {
